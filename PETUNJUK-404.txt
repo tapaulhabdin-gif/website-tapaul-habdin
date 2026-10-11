@@ -1,0 +1,12 @@
+CARA MEMPERBAIKI WEBSITE 404
+
+1. Ekstrak file ZIP ini di komputer. Jangan unggah file ZIP secara langsung.
+2. Di repositori https://github.com/tapaulhabdin-gif/website-tapaul-habdin, buka tab Code.
+3. Pastikan index.html, app.js, styles.css, folder assets, data, tools, config, tests, dan folder .github berada di AKAR repositori.
+4. Jika belum, Add file > Upload files lalu tarik SEMUA ISI folder hasil ekstrak, termasuk folder .github. Klik Commit changes.
+5. Settings > Pages > Build and deployment > Source: pilih GitHub Actions.
+6. Actions > Sinkronisasi Shalawat YouTube > Run workflow.
+7. Periksa job deploy_pages berwarna hijau, lalu buka https://tapaulhabdin-gif.github.io/website-tapaul-habdin/.
+
+404 pada website adalah gejala gagal diterbitkan, bukan bukti kesalahan isi website.
+Bila tab Code di GitHub sudah berisi index.html, lewati langkah unggah dan langsung periksa Pages/Actions.
